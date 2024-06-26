@@ -715,7 +715,9 @@ $$Pole\ rot\ risk=\ \%\ wooden\ poles\ \cdot\ vuInerability\ $$
 **ST10** defines the equivalent viscous damping and is computed according to
 ATC40 \[4\]:
 
+{% raw %}
 $$\frac{E_D}{{4\pi E}_{SO}}$$
+{% endraw %}
 
 Where $E_D$ is the energy dissipated by damping, meaning the area enclosed by
 the hysteresis loop of the structure, while $E_{SO}$ is the maximum strain energy.
