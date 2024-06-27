@@ -35,24 +35,27 @@
             border-collapse: collapse;
             margin-top: 20px;
         }
-        
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
+            max-width: 300px; /* Maximum width for all columns */
+            word-wrap: break-word; /* Allow wrapping of long words */
         }
-        
+
         th {
             background-color: #f2f2f2;
         }
-        
+
         tbody tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        
+
         tbody tr:hover {
             background-color: #f1f1f1;
         }
+
         
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
