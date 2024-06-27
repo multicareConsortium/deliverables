@@ -1,5 +1,5 @@
 ---
-layout: tables
+layout: tables.html
 title: Deliverable 4.4 - Energy Performance Deliverable
 ---
 
