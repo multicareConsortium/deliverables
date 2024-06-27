@@ -9,6 +9,6 @@ title: Deliverable 4.4
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        renderCSVTable('{{ site.baseurl }}/tables/44-frameworks-economicImpacts.csv', 'csv-table');
+        renderCSVTable('{{ site.baseurl }}/tables/44-frameworks-economicImpact.csv', 'csv-table');
     });
 </script>
