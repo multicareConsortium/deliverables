@@ -9,8 +9,8 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-            max-width: 800px; /* Match typical Markdown content width */
-            margin: auto; /* Center align */
+            max-width: 800px;
+            margin: auto;
         }
         h1 {
             margin-top: 0px;
@@ -64,10 +64,21 @@
             text-align: left;
         }
         .content {
-            max-width: 800px; /* Ensure the content width is consistent */
-            margin: auto; /* Center align the content */
+            max-width: 800px;
+            margin: auto;
         }
     </style>
+    <script type="text/javascript">
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                processEscapes: true
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
     <script type="text/javascript" id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
