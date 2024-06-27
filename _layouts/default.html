@@ -115,6 +115,21 @@
                                 td.innerText = row[header];
                             });
                         });
+
+                        // Adjust column widths based on content
+                        headers.forEach(function(header, index) {
+                            var columnCells = table.querySelectorAll('td:nth-child(' + (index + 1) + '), th:nth-child(' + (index + 1) + ')');
+                            var maxWidth = 0;
+                            columnCells.forEach(function(cell) {
+                                var cellWidth = cell.innerText.length * 8; // Estimate width based on character count
+                                if (cellWidth > maxWidth) {
+                                    maxWidth = cellWidth;
+                                }
+                            });
+                            columnCells.forEach(function(cell) {
+                                cell.style.width = maxWidth + 'px';
+                            });
+                        });
                     }
                 }
             });
