@@ -7,74 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/tables.css">
     <style>
+        /* Reset default margin and padding */
+        body, h1, h2, h3, h4, h5, h6, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-            margin: 0; /* Remove default margin */
         }
+        
         h1 {
-            margin-top: 0px;
+            margin-top: 0;
+            text-align: center;
         }
-        ul {
-            margin-left: 0;
-            padding-left: 20px;
-        }
-        li {
-            list-style-type: none;
-            margin-bottom: 10px;
-        }
+        
         header, footer {
             background: #f8f8f8;
             padding: 10px 20px;
             margin-bottom: 20px;
             text-align: center;
         }
-        h2, h3, h4, h5, h6 {
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
             margin-top: 20px;
         }
-        p {
-            margin: 10px 0;
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
         }
-        code {
-            background: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 3px;
+        
+        th {
+            background-color: #f2f2f2;
         }
-        pre {
-            background: #f4f4f4;
-            padding: 10px;
-            border-radius: 3px;
+        
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
-        blockquote {
-            margin: 10px 0;
-            padding: 10px 20px;
-            background: #f9f9f9;
-            border-left: 5px solid #ccc;
+        
+        tbody tr:hover {
+            background-color: #f1f1f1;
         }
-        .content {
-            margin: auto;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 10px 0;
-        }
+        
     </style>
-    <script type="text/javascript">
-        window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                processEscapes: true
-            },
-            svg: {
-                fontCache: 'global'
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script>
         function renderCSVTable(csvUrl, tableId) {
@@ -103,12 +83,12 @@
                             });
                         });
 
-                        // Adjust column widths based on content
+                        // Adjust column widths based on content (optional)
                         headers.forEach(function(header, index) {
                             var columnCells = table.querySelectorAll('td:nth-child(' + (index + 1) + '), th:nth-child(' + (index + 1) + ')');
                             var maxWidth = 0;
                             columnCells.forEach(function(cell) {
-                                var cellWidth = cell.innerText.length * 8; // Estimate width based on character count
+                                var cellWidth = cell.innerText.length * 8; // Adjust as needed
                                 if (cellWidth > maxWidth) {
                                     maxWidth = cellWidth;
                                 }
@@ -130,7 +110,17 @@
     </header>
     
     <div class="content">
+        <!-- Your main content here -->
         {{ content }}
+        
+        <!-- Example usage of the CSV table rendering function -->
+        <h2>Placeholder.</h2>
+        <table id="csvTable">
+            <!-- Table content will be dynamically inserted here -->
+        </table>
+        <script>
+            // Example usage: renderCSVTable('your-csv-url.csv', 'csvTable');
+        </script>
     </div>
 
     <footer>
