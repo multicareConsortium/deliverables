@@ -66,6 +66,8 @@
                     var table = document.getElementById(tableId);
                     if (data.length > 0) {
                         var headers = Object.keys(data[0]);
+                        
+                        // Create table header (thead)
                         var thead = table.createTHead();
                         var headerRow = thead.insertRow();
                         headers.forEach(function(header) {
@@ -73,7 +75,8 @@
                             th.innerText = header;
                             headerRow.appendChild(th);
                         });
-
+    
+                        // Create table body (tbody)
                         var tbody = table.createTBody();
                         data.forEach(function(row) {
                             var tr = tbody.insertRow();
@@ -82,15 +85,21 @@
                                 td.innerText = row[header];
                             });
                         });
-
-                        // Adjust column widths based on content (optional)
+    
+                        // Adjust column widths based on content
                         headers.forEach(function(header, index) {
                             var columnCells = table.querySelectorAll('td:nth-child(' + (index + 1) + '), th:nth-child(' + (index + 1) + ')');
                             var maxWidth = 0;
                             columnCells.forEach(function(cell) {
                                 var cellWidth = cell.innerText.length * 8; // Adjust as needed
-                                if (cellWidth > maxWidth) {
-                                    maxWidth = cellWidth;
+                                
+                                // Set a hard limit for the 'sources of information' column
+                                if (header === 'sources of information') {
+                                    maxWidth = Math.min(100, cellWidth); // Maximum width of 300px
+                                } else {
+                                    if (cellWidth > maxWidth) {
+                                        maxWidth = cellWidth;
+                                    }
                                 }
                             });
                             columnCells.forEach(function(cell) {
@@ -102,6 +111,7 @@
             });
         }
     </script>
+    
 </head>
 
 <body>
