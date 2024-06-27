@@ -1,18 +1,18 @@
-﻿Name of framework,Scope and definition,Objectives,Country (-es) concerned,"Type of framework (research project, data protocol, framework, publication, international and EU standard, strategic plan or initiative)",Maturity framework/methodology,"What stakeholders are involved into this framework (tenant, occupant, building owner, maintenance company, public administration)?",How it concerns renovation process?,"How it concerns social aspects of life (life of occupants living in dwellings and buildings, site disputes, public access, energy poverty, resilience, satisfaction)?","What technical domains of buildings it concerns (if it is the case)? Heating, Cooling, Ventilation, Domestic Hot Water, Lighting, Dynamic building envelope, Electricity, Electric vehicle charging, Monitoring and control, Others","Scale of application (component, buildng, urban)",Most relevant KPIs - + highlight those related to the MULTICARE KPIs,Frequency of application,Year of publication of this framework,Last updated version,Source of information,Coordination within MULTICARE: partner involved in the assessment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿Name of framework,Scope and definition,Objectives,Country (-es) concerned,"Type of framework (research project, data protocol, framework, publication, international and EU standard, strategic plan or initiative)",Maturity framework/methodology,"What stakeholders are involved into this framework (tenant, occupant, building owner, maintenance company, public administration)?",How it concerns renovation process?,"How it concerns social aspects of life (life of occupants living in dwellings and buildings, site disputes, public access, energy poverty, resilience, satisfaction)?","What technical domains of buildings it concerns (if it is the case)? Heating, Cooling, Ventilation, Domestic Hot Water, Lighting, Dynamic building envelope, Electricity, Electric vehicle charging, Monitoring and control, Others","Scale of application (component, buildng, urban)",Most relevant KPIs - + highlight those related to the MULTICARE KPIs,Frequency of application,Year of publication of this framework,Last updated version,Source of information
 Bouwbesluit ," Bowubesluit discusses regulations relating to construction, use and demolition of structures.","1) To provide technical and other regulations applicable to the construction of a structure, the condition of an existing structure and the putting into use or use of a structure.",NL ,National standard,Full Launch,"Building owners, maintenance companies, public administration.",Sets requirements for renovations to ensure that they meet minimum quality standards and safety regulations.,Improves safety and life of occupants living in dwellings and buildings.,"Heating, Cooling, Ventilation, Domestic Hot Water, Lighting, Dynamic building envelope, Electricity.",National,"1) Structural performance
 2) Resilience                            
-3) Energy performance ","Continuously applied and evaluated, last evaluation 07 september 2023",2011,2023,https://rijksoverheid.bouwbesluit.com/Inhoud/docs/wet/bb2012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3) Energy performance ","Continuously applied and evaluated, last evaluation 07 september 2023",2011,2023,https://rijksoverheid.bouwbesluit.com/Inhoud/docs/wet/bb2012
 EN 1990,Provides principles and requirements for structural design.,"1) To provide guidelines for assessing structural safety, considering various loads and actions.
 2) To set criteria for structural reliability and serviceability.",EU,European standard,Full Launch,"Building owners, designers, contractors, occupants, maintenance companies,
 public administrations.",Quantifies structural safety after renovation.,Improves safety.,Structural safety,"Level 1: Local
 Level 2: Regional
 Level 3: National","1) Structural performance
-2) Resilience",Continuously applied and evaluated.,2002,2005,https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-basis-structural-design,"UNIROMA3, TU DELFT",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2) Resilience",Continuously applied and evaluated.,2002,2005,https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-basis-structural-design
 NTC 2018,Provides principles and requirements for structural design.,"1) To provide guidelines for assessing structural safety, considering various loads and actions.
 2) To set criteria for structural reliability and serviceability.",IT,National standard,Full Launch,"Βuilding owners, designers, contractors, occupants, maintenance companies,  public administrations.",Quantifies structural safety after renovation.,Improves safety.,Structural safety,"Level 1: Local
 Level 2: Regional
 Level 3: National","1) Structural performance
-2) Resilience",Continuously applied and evaluated.,2018,2023,https://cslp.mit.gov.it/normativa/nuove-norme-tecniche-le-costruzioni,"UNIROMA3, TU DELFT",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2) Resilience",Continuously applied and evaluated.,2018,2023,https://cslp.mit.gov.it/normativa/nuove-norme-tecniche-le-costruzioni
 P100-1/2013,"Discusses building design to ensure seismic resilience, focusing on safety, damage limitation and limitation during earthquakes.","1) To characterize seismic actions.
 2) To provide structural design principles.
 3) To define performance levels to achieve earthquake-resistant structures.",RO,National standard,Full Launch,"Building owners, engineers and designers, tenants/occupants,  maintenance companies,  public administration.
@@ -20,14 +20,14 @@ P100-1/2013,"Discusses building design to ensure seismic resilience, focusing on
 Level 2: Regional
 Level 3: National","1) Environmental impact
 2) Economic impact
-3) Seismic resilience",Continuously applied and evaluated.,2013; revision in 2019; new version expected in 2025,2019,https://www.mdlpa.ro/pages/reglementare1,INFP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3) Seismic resilience",Continuously applied and evaluated.,2013; revision in 2019; new version expected in 2025,2019,https://www.mdlpa.ro/pages/reglementare1
 CR 2-1-1.1/2022,Discusses design of Reinforced Concrete (RC) shear wall structures.,"1) To provide design rules for new RC shear wall structures. 
 2) To provide design rules for retrofiting of existing RC shear wall structures.",RO,National standard,Full Launch,"Building owners, engineers and designers, tenants/occupants,  maintenance companies,  public administration.
 ",Provides improved design rules for a better structural performance of new and existing RC shear wall buildings.,Improves safety and enhances resilience.,Structural safety,"Level 1: Local
 Level 2: Regional
 Level 3: National","1) Environmental impact
 2) Economic impact
-3) Seismic resilience",Continuously applied and evaluated.,2013,2022,https://www.mdlpa.ro/uploads/articole/attachments/65c0cd199ad03245215073.pdf,INFP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3) Seismic resilience",Continuously applied and evaluated.,2013,2022,https://www.mdlpa.ro/uploads/articole/attachments/65c0cd199ad03245215073.pdf
 P100-3/2019,"Provides guidelines for assessing and labeling buildings based on their seismic risk level.
 ","1) To define the seismic risk of building.
 2) To define the process of individual building evaluation.",RO,National standard,Full Launch,"Building owners, engineers and designers, tenants/occupants,  maintenance companies,  public administration.
@@ -35,4 +35,4 @@ P100-3/2019,"Provides guidelines for assessing and labeling buildings based on t
 Level 2: Regional
 Level 3: National","1) Environmental impact
 2) Economic impact
-3) Seismic resilience",Continuously applied and evaluated.,2019 (previous version in 2008),2019,https://www.mdlpa.ro/pages/reglementare1,INFP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3) Seismic resilience",Continuously applied and evaluated.,2019 (previous version in 2008),2019,https://www.mdlpa.ro/pages/reglementare1
