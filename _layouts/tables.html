@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }} - MultiCare Deliverable Repository</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Reset default margin and padding */
+        body, h1, h2, h3, h4, h5, h6, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        h1 {
+            margin-top: 0;
+            text-align: center;
+        }
+        
+        header, footer {
+            background: #f8f8f8;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            table-layout: fixed;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            width: 300px;
+            word-wrap: break-word; /* Allow wrapping of long words */
+        }
+
+        th {
+            background-color: #514f4f;
+            color: #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script>
+        function renderCSVTable(csvUrl, tableId) {
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    var data = results.data;
+                    var table = document.getElementById(tableId);
+                    if (data.length > 0) {
+                        var headers = Object.keys(data[0]);
+                        
+                        // Create table header (thead)
+                        var thead = table.createTHead();
+                        var headerRow = thead.insertRow();
+                        headers.forEach(function(header) {
+                            var th = document.createElement('th');
+                            th.innerText = header;
+                            headerRow.appendChild(th);
+                        });
+    
+                        // Create table body (tbody)
+                        var tbody = table.createTBody();
+                        data.forEach(function(row) {
+                            var tr = tbody.insertRow();
+                            headers.forEach(function(header) {
+                                var td = tr.insertCell();
+                                td.innerText = row[header];
+                            });
+                        });
+
+                    }
+                }
+            });
+        }
+    </script>
+    
+</head>
+
+<body>
+    <header>
+        <h1>MultiCare Deliverable Repository</h1>
+    </header>
+    
+    <div class="content">
+        <!-- Main content here -->
+        {{ content }}
+        <table id="csvTable">
+        </table>
+        <script>
+            // Example usage: renderCSVTable('your-csv-url.csv', 'csvTable');
+        </script>
+    </div>
+
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} MultiCare</p>
+    </footer>
+</body>
+
+</html>
